@@ -12,11 +12,11 @@ looper.py -l .\list.txt -c 'New-Item $var -ItemType \"directory\"'
 ```
 
 ### Options
-  `-h`, `--help` | show this help message and exit
-  `-l LIST`, `--list LIST` | a list of items (seperated by linebreak) that should be looped
-  `-c COMMAND`, `--command COMMAND` | command to be exeuted for each item in list; surrounded by single quotes ''; Items from list can used as parameters with `$var`
-  `-s {cmd,powershell}`, `--shell {cmd,powershell}` | specify the shell to use (cmd or powershell)
-  -`c2 COMMAND2`, `--command2 COMMAND2` | second command to be exeuted for each item in list
+  `-h`, `--help` | show this help message and exit<br>
+  `-l LIST`, `--list LIST` | a list of items (seperated by linebreak) that should be looped<br>
+  `-c COMMAND`, `--command COMMAND` | command to be exeuted for each item in list; surrounded by single quotes ''; Items from list can used as parameters with `$var`<br>
+  `-s {cmd,powershell}`, `--shell {cmd,powershell}` | specify the shell to use (cmd or powershell)<br>
+  -`c2 COMMAND2`, `--command2 COMMAND2` | second command to be exeuted for each item in list<br>
 
 ### Examples
 Execute a combined PowerShell command
